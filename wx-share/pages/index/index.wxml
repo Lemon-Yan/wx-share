@@ -1,0 +1,19 @@
+<!--index.wxml-->
+<view class='container'>
+  <view class='card b-shadow'>
+    <view class='card-content'>
+      <image mode="widthFix"  src='../../images/benchi.png'></image> 
+    </view>
+    <view class='carDesc carDesc1'>
+      <text>奔驰A230</text>
+      <button class='share' id="shareBtn" open-type="share" type="primary" hover-class="other-button-hover">
+        <image src='../../images/share.png'></image>
+        分享
+      </button>
+    </view>
+    <view class='carDesc carDesc2'>
+      <text>梅赛德斯-奔驰旨在为消费者服务</text>
+      <button  class='bg-c' type="primary" hover-class="other-button-hover">预约</button>
+    </view>
+  </view> 
+</view>
